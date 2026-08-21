@@ -317,7 +317,7 @@ integration-v2 product tests
 │   │   ├── [verb-routing] Overlapping resource paths are routed by HTTP verb as <actor>  (gateway/rest_invocation.feature:676)
 │   │   ├── [special-char-resource] A resource path with non-reserved special characters is invocable as <actor>  (gateway/rest_invocation.feature:704)
 │   │   ├── [load-balance] A load-balanced endpoint distributes requests across all backends as <actor>  (gateway/rest_invocation.feature:730)
-│   │   ├── [tenant-domain] A mis-cased tenant domain in the gateway path is rejected and leaves the tenant's routing intact  (gateway/rest_invocation.feature:763)
+│   │   ├── [tenant-domain] A mis-cased tenant domain in the gateway path is rejected and leaves the tenant's routing intact  (gateway/rest_invocation.feature:764)
 │   │   ├── [sandbox-gateway] A sandbox-only gateway accepts a sandbox token and rejects a production token as <actor>  (gateway/sandbox_gateway.feature:12)
 │   │   ├── An operation is throttled with 429 once it exceeds its OPERATION-LEVEL advanced limit as <actor>  (gateway/throttling_enforcement.feature:344)
 │   │   ├── [prototype] A deployed prototyped API is invocable with a subscription token as <actor>  (publisher/prototype_api.feature:13)
